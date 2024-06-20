@@ -1,0 +1,286 @@
+.navigation{
+    border-style: solid;
+    width: 100%;
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    border-style: solid;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gray; 
+}
+
+.btn:hover{
+    border-style: solid;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gray;  
+    background-color: rgb(63, 63, 63);
+    transition: 1s;
+}
+
+.home-container{
+    display: flex;
+    width: 100%;
+    border-style: solid;
+    height: 900px;
+    background-image: url(./images/4k-laptop-on-black-desk-qrlk8vcxz01kbm0h.jpg);
+}
+
+.home-text{
+    display: flex;
+    color: white;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 500px;
+}
+
+.footer{
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    border-style: solid;
+}
+.foot-buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+}
+.btn2{
+    border-style: solid;
+    text-decoration: none;
+    color: white;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn2:hover{
+    border-style: solid;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gray;  
+    background-color: white;
+    transition: 1s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-image-container{
+    width: 100%;
+    display: flex;
+}
+
+.home-image-container .img2{
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 100px black;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.home-image-container h1{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 250px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 10px black;
+    animation: fadeIn 5s;
+}
+
+.bio-container{
+    width: 100%;
+    border-style: solid;
+    height: 900px;
+    background-image: url(./images/ProgrammingIllustration.png);
+}
+
+.bio-text{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    animation: fadeIn 5s;
+}
+
+.txt1{
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: white;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 50px 10px black;
+}
+.txt2{
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: white;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 50px 10px black;
+}
+.txt3{
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: white;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 50px 10px black;
+}
+
+.edu-container{
+    background-image: url(./images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: 2000px;
+    border-style: solid;
+}
+
+.edu-text{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+.hob-container{
+    background-image: url(./images/flat-lay-travel-items-arrangement.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: 2000px;
+    border-style: solid;
+}
+
+.edu-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 1;
+}
+
+.gim{
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 500px;
+    box-shadow: -10px 10px 10px black;
+    animation: fadeIn 5s;
+}
+.gim:hover{
+    border-style: solid;
+    border-color: white;
+    transition: 0.1s;
+}
+
+.fin{
+  height: 300px;
+  margin-right: 100px;
+  border-radius: 500px;
+  box-shadow: 10px 10px 10px black;
+  animation: fadeIn 5s;
+}
+.fin:hover{
+    border-style: solid;
+    border-color: white;
+    transition: 0.1s;
+}
+
+
+.hob-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    animation: fadeIn 5s;
+}
+
+.hob-text{
+    display: flex;
+    justify-content: space-around;
+    gap:100px;
+    align-items: center;
+}
+.hob-text1{
+    background-color: black;
+    color: white;
+    width: 900px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    animation: fadeIn 5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 30px black;
+}
+.hob-text2{
+    background-color: black;
+    color: white;
+    width: 900px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    animation: fadeIn 5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 30px black;
+}
+.hob-text3{
+    background-color: black;
+    color: white;
+    width: 900px;
+    margin-right: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    animation: fadeIn 5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 30px black;
+}
